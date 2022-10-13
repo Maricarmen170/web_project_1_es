@@ -9,7 +9,6 @@
   height:100vh;
   min-height: 600px;
   max-height: 756px;
-  width: 100vw;
   display:flex;
   position: relative;
   align-items: center;
@@ -22,8 +21,8 @@
 }
 .logo_place_header {
   align-self: flex-start;
-  margin-left: 64px;
-  margin-top: 30px;
+  left: 64px;
+  top: 30px;
   position: absolute;
   z-index: 1;
   width: 154px;
@@ -43,8 +42,8 @@
   position: absolute;
   align-self: flex-end;
   width: 388px;
-  margin-left: 64px;
-  margin-bottom: 30px;
+  left: 64px;
+  bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -63,7 +62,7 @@
   position: absolute;
   align-self: flex-end;
   width: 756px;
-  margin-left: 50.8%;
+  left: 50.8%;
   height: 608px;
 }
 
@@ -73,8 +72,8 @@
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
-  padding-top: 64px;
-  margin-left: 63%;
+  top: 64px;
+  left: 62.2%;
 }
 
 .description{
@@ -90,10 +89,12 @@
   width: 80%;
   min-width:784px;
   justify-content: space-between;
-  margin-top: 100px;
+  margin: 100px auto;
+  padding-bottom: 0%;
+  /*margin-top: 100px;
   margin-bottom: 100px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
   line-height: 1.2;
   font-size: 18px;
   font-weight:normal;
@@ -105,18 +106,18 @@
   text-decoration: none;
 }
 .two-columns__main-text{
-  flex: 0 1 100%;
+  width: 80%;
 }
 .two-columns__paragraph{
 }
-.two-columns__paragraph-1{
+.two-columns__paragraph_1{
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.two-columns__paragraph-2{
+.two-columns__paragraph_2{
   margin-top: 30px;
   margin-bottom: 30px;
   line-height:34px;
@@ -126,7 +127,7 @@
 .two_columns__span-accent{
   font-weight: bold;
 }
-.two-columns__paragraph-3{
+.two-columns__paragraph_3{
   line-height: 34px;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -146,7 +147,7 @@
 .section-title{
   text-align: center;
   align-self: center;
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: 0px;
   width: 60%;
   line-height: 1.15;
@@ -229,17 +230,20 @@
 }
 .feynman__link{
   position: absolute;
-  margin-top: 395px;
+  top: 395px;
   align-self: flex-end;
-  margin-right: 48px;
-  
+  right: 48px;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }
 .feynman__image{
   width: 867px;
   height: 637px;
   align-self: flex-start;
   position:absolute;
-  margin-top: 10%;
+  top: 20%;
 }
 .kaufman{
   display: flex;
@@ -247,7 +251,6 @@
   position:relative;
   min-height: 600px;
   max-height: 756px;
-  width: 100vw;
   align-items: flex-end;
   overflow: hidden;
   background-color: #000;
@@ -313,7 +316,6 @@
 .footer{
   display: flex;
   justify-content: center;
-  width: 100vw;
   height: 350px;
   background-color: #000;
 }
@@ -369,10 +371,11 @@
 .footer__social-icons{
   width: 16px;
   height: 16px;
+  margin-top: 10px;
 }
 .footer__facebook{
   display: flex;
-  width: 90px;
+  width: 100px;
 }
 .footer__instagram{
   width: 90px;
@@ -382,10 +385,13 @@
   height: 130px;
 }
 .footer__column-link{
-  width: 60px;
+  width: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   color: white;
 }
 .footer__column_about_social{
