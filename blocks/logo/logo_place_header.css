@@ -1,0 +1,9 @@
+.logo_place_header {
+    align-self: flex-start;
+    left: 64px;
+    top: 30px;
+    position: absolute;
+    z-index: 1;
+    width: 154px;
+    height: 31px;
+    }

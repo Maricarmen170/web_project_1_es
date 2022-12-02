@@ -1,0 +1,12 @@
+.header__textos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-self: flex-end;
+    width: 388px;
+    left: 64px;
+    bottom: 30px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    }

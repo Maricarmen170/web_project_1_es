@@ -1,0 +1,14 @@
+.two-columns{
+    display: flex;
+    width: 80%;
+    min-width:784px;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight:normal;
+    }
